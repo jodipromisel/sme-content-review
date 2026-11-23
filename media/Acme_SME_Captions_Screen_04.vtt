@@ -1,0 +1,37 @@
+WEBVTT
+
+1
+00:00:00.110 --> 00:00:01.870
+Notice the difference between these two
+
+2
+00:00:01.870 --> 00:00:04.510
+comments. The first identifies a
+
+3
+00:00:04.510 --> 00:00:06.110
+problem but doesn't provide enough
+
+4
+00:00:06.110 --> 00:00:08.830
+information to resolve it. The second
+
+5
+00:00:08.830 --> 00:00:10.750
+identifies where the issue occurs,
+
+6
+00:00:10.830 --> 00:00:12.910
+explains what needs to change, and
+
+7
+00:00:12.910 --> 00:00:15.870
+references the correct policy. That's the
+
+8
+00:00:15.870 --> 00:00:17.630
+level of detail you should aim for when
+
+9
+00:00:17.630 --> 00:00:18.670
+reviewing content.

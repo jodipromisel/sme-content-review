@@ -1,0 +1,156 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Acme | Your Role as a Subject Matter Expert in Content Review</title><style>
+:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;color:#19283b;background:#f3f6fa}*{box-sizing:border-box}body{margin:0}button,textarea{font:inherit}button{cursor:pointer}.top{background:#172c47;color:#fff;padding:16px max(20px,calc((100vw - 1100px)/2));display:flex;justify-content:space-between;align-items:center;gap:12px}.brand{font-weight:800}.top small{color:#c1d2e3}.shell{max-width:1100px;margin:26px auto;padding:0 18px}.panel,.intro{background:#fff;border:1px solid #dce5ee;border-radius:14px;box-shadow:0 3px 18px #1d36580a}.intro{padding:30px 34px;min-height:420px}.eyebrow{color:#527093;text-transform:uppercase;letter-spacing:1.5px;font-size:11px;font-weight:800}.intro h1{font-size:clamp(25px,3.4vw,35px);line-height:1.2;margin:14px 0 17px}.intro p{line-height:1.7;color:#42556b;font-size:16px}.card{background:#f7fafe;border:1px solid #dce7f3;border-radius:11px;padding:20px;margin:18px 0}.card h2{font-size:18px;margin:0 0 9px}.card p{margin:0}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.small-title{font-size:12px;letter-spacing:.5px;font-weight:800;color:#4672a2;text-transform:uppercase}.bullets{line-height:2;color:#34475d;padding-left:22px}.choice{display:block;width:100%;text-align:left;background:#fff;border:2px solid #dce5ee;border-radius:10px;padding:16px 18px;margin:12px 0;color:#223951;line-height:1.5}.choice:hover,.choice:focus-visible{border-color:#4287c7;outline:none}.choice.chosen{border-color:#1865a7;background:#eaf4ff}.primary,.secondary,.outline{border-radius:9px;padding:11px 19px;font-weight:750}.primary{border:1px solid #1865a7;background:#1865a7;color:#fff}.primary:hover{background:#104d82}.primary:disabled{background:#b5c4d3;border-color:#b5c4d3;cursor:not-allowed}.secondary{border:1px solid #d3dfeb;background:#fff;color:#42566d}.outline{border:1px solid #1865a7;background:white;color:#1865a7}.nav{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:18px 0}.nav .right{display:flex;gap:10px}.progress{font-size:13px;color:#61748a}.status{margin-top:16px;border-radius:9px;padding:13px 15px;line-height:1.6;font-size:14px}.status.good{background:#e9f7ef;color:#205b3a}.status.warn{background:#fff5e7;color:#79511b}.policy{background:#f2f3f5;border-left:4px solid #3876bd;padding:13px 16px;border-radius:5px;line-height:1.6;margin:16px 0}.workspace{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(300px,1fr);gap:18px;margin-top:17px}.panel{overflow:hidden}.panelhead{display:flex;justify-content:space-between;align-items:center;padding:17px 20px;border-bottom:1px solid #e7edf4}.panelhead h2{font-size:15px;margin:0}.muted{color:#64758b;font-size:12px}.course{padding:30px 34px 32px;min-height:330px}.course .pill{font-size:11px;letter-spacing:.8px;font-weight:800;color:#4672a2}.course h3{font-size:25px;margin:14px 0 16px}.course p{line-height:1.75;color:#34475d}.statement{padding:17px 19px;border:2px solid #d9e3ee;border-radius:10px;background:#f8fafc;text-align:left;width:100%;line-height:1.7;color:#23364e}.statement:hover,.statement:focus-visible{border-color:#3e83d0;outline:none}.statement.selected{border-color:#1c76c8;background:#eaf4ff;box-shadow:0 0 0 3px #cce6ff}.statement strong{color:inherit}.sidebar{padding:20px}.sidebar p{font-size:13px;line-height:1.6;color:#586c82;margin:0 0 14px}label{display:block;font-size:13px;font-weight:750;margin-bottom:9px}textarea{resize:vertical;min-height:128px;width:100%;border:1.5px solid #c9d6e5;border-radius:9px;padding:12px;color:#21344b;line-height:1.5}textarea:focus{outline:3px solid #d6eaff;border-color:#3179c1}.actions{display:flex;justify-content:space-between;align-items:center;margin-top:11px;gap:10px}.posted{border-top:1px solid #e6edf4;margin-top:20px;padding-top:16px}.posted h3{font-size:13px;margin:0 0 12px}.comment{background:#f4f7fa;border-radius:8px;padding:12px 14px;white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px;line-height:1.6}.example{border-left:4px solid #c76d62;padding:13px 18px;background:#faf2f0;border-radius:5px;line-height:1.7}.example.better{border-left-color:#27815a;background:#eef6f2}.checklist{display:grid;gap:16px;line-height:1.65;margin:24px 0}.checklist div{padding:12px 15px;border:1px solid #e1e9f1;border-radius:9px}.checklist span{color:#27815a;font-weight:800;margin-right:9px}.foot{font-size:12px;color:#687c91;margin:18px 2px 25px;line-height:1.5}.hidden{display:none!important}@media(max-width:760px){.workspace,.grid{grid-template-columns:1fr}.course{padding:22px}.intro{padding:22px;min-height:unset}.top{padding:14px 18px}.nav{align-items:flex-start}}
+
+/* Consistent storyboard-inspired palette and presentation */
+:root{--navy:#172c47;--blue:#1865a7;--pale:#edf5ff;--green:#27815a}
+.intro{min-height:500px;border-top:5px solid var(--blue)}
+.intro h1{font-size:clamp(27px,3.1vw,35px);font-weight:800;letter-spacing:-.6px;color:var(--navy)}
+.intro>p{max-width:850px}
+.card{background:#f4f8fd}
+.policy{background:#edf5ff}
+.statement{display:block;margin:9px 0;background:white;font-size:14px;padding:12px 15px;border:1.5px solid #d9e3ee;min-height:53px}
+.statement.selected{border:2px solid var(--blue);background:#eaf4ff;box-shadow:none}
+.course{padding:22px 23px 24px;min-height:0}
+.course h3{font-size:20px;margin:9px 0 14px}
+.workspace{grid-template-columns:minmax(0,1.65fr) minmax(290px,1fr)}
+.sidebar{padding:17px}.sidebar textarea{min-height:110px}
+.feedback-error{font-size:13px;color:#875318;margin-top:9px;line-height:1.45}
+.review-prompt{font-size:14px!important;margin-bottom:10px!important}
+@media(max-width:760px){.workspace{grid-template-columns:1fr}}
+
+/* Slide 4: restrained two-color comparison; no inner rules */
+.card:has(.example:not(.better)){background:#faf2f0;border-color:#edcec8}
+.card:has(.example.better){background:#f1f1f1;border-color:#e2e2e2}
+ .example,.example.better{background:transparent;border-left:0;padding:10px 0 0;border-radius:0;line-height:1.7}
+.card:has(.example) .small-title{color:#23354a}
+.card:has(.example){min-height:160px}
+/* Consistent coral retry feedback, green for success */
+.status.warn{background:#faf0ee;color:#493d3b;border:1px solid #e8c7c1}
+.feedback-error{background:#faf0ee;color:#493d3b;border:1px solid #e8c7c1;border-radius:8px;padding:11px 12px;margin:10px 0 2px;line-height:1.5}
+
+.audio-bar{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin:14px 0 0;padding:13px 16px;border:1px solid #dce5ee;border-radius:10px;background:#fff}
+.audio-bar button{font-size:13px}.audio-bar audio{width:min(100%,350px);height:40px}.audio-bar{justify-content:flex-start}
+.audio-label{font-size:13px;color:#42556b;font-weight:650}
+.audio-captions{margin-top:9px;text-align:center;background:#172c47;color:white;border-radius:8px;padding:10px 14px;min-height:44px;font-size:15px;line-height:1.5}
+.audio-captions:empty{display:none}
+.audio-bar button[aria-pressed="true"]{background:#eaf4ff;color:#14548a}
+
+.audio-bar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:12px 14px}
+.audio-bar .audio-icon{width:43px;height:40px;padding:7px;display:inline-flex;justify-content:center;align-items:center;font-size:19px}
+.audio-time{font-size:12px;color:#53677e;white-space:nowrap;font-variant-numeric:tabular-nums}
+#audioSeek{flex:1;min-width:125px;accent-color:#1865a7;cursor:pointer}
+.audio-captions{max-width:100%;margin:8px 0 0;min-height:0}
+.audio-captions:empty{display:none}
+.grid .card.id-role{background:#f2f2f4;border-color:#dfe1e5}
+</style></head><body><header class="top"><div class="brand">ACME <span style="font-weight:400;color:#c1d2e3">/ Learning Review</span></div><small>SME Content Review · Portfolio sample</small></header><main class="shell"><section class="intro" id="screen" aria-live="polite"></section><section id="audioPanel" class="hidden" aria-label="Narration player">
+<div class="audio-bar"><button class="secondary audio-icon" id="audioPlay" type="button" aria-label="Play narration" title="Play or pause narration">▶</button>
+<button class="secondary audio-icon" id="audioReplay" type="button" aria-label="Restart narration" title="Restart narration">↺</button>
+<span class="audio-time" id="audioTime">0:00 / 0:00</span>
+<input id="audioSeek" type="range" min="0" max="100" value="0" step="0.1" aria-label="Narration position">
+<button class="secondary audio-icon" id="audioMute" type="button" aria-label="Mute narration" title="Mute or unmute">🔊</button>
+<button class="secondary" id="captionToggle" type="button" aria-pressed="true">CC On</button>
+</div><div class="audio-captions" id="captionText" role="status" aria-live="off"></div>
+<audio id="narration" preload="metadata"></audio>
+</section><div class="nav"><span class="progress" id="progress">Screen 1 of 8</span><div class="right"><button class="secondary hidden" id="back">Back</button><button class="primary hidden" id="next">Next</button></div></div><p class="foot">Original fictional Acme Company training sample. The review interface is not Articulate Review 360. Responses remain in this browser session and are not transmitted. This is a fictional, self-contained training demonstration.</p></main><script>
+const screen=document.getElementById('screen'),back=document.getElementById('back'),next=document.getElementById('next'),progress=document.getElementById('progress');let started=false,current=0,decision=null,knowledge=null,selected=-1,posted=false,comment='',wrongChoice=false,commentError='';
+const eyebrow=n=>`<div class="eyebrow">Scene ${String(n).padStart(2,'0')} · SME content review</div>`;
+
+const audioPanel=document.getElementById('audioPanel'),audio=document.getElementById('narration'),
+audioPlay=document.getElementById("audioPlay"),audioReplay=document.getElementById('audioReplay'),
+captionToggle=document.getElementById('captionToggle'),captionText=document.getElementById('captionText'),
+audioSeek=document.getElementById('audioSeek'),audioTime=document.getElementById('audioTime'),audioMute=document.getElementById('audioMute');
+let captionsEnabled=true,cues=[],audioToken=0,previousAudioScreen=-1;
+const narratedScreens=new Set([1,2,4,5,6,8]);
+const embeddedCaptions={"1": [{"start": 0.11, "end": 2.35, "text": "You are a subject matter expert at Acme"}, {"start": 2.35, "end": 4.95, "text": "Company. You've been asked to review a"}, {"start": 4.95, "end": 6.95, "text": "draft employee onboarding course before"}, {"start": 6.95, "end": 9.95, "text": "it's published. Your role is to confirm"}, {"start": 9.95, "end": 12.03, "text": "that the content is accurate, current,"}, {"start": 12.03, "end": 13.63, "text": "complete, and relevant."}], "2": [{"start": 0.11, "end": 1.79, "text": "The subject matter expert and"}, {"start": 1.79, "end": 3.71, "text": "instructional designer have different but"}, {"start": 3.71, "end": 6.71, "text": "complementary responsibilities. As the"}, {"start": 6.75, "end": 9.15, "text": "SME, you focus on the accuracy and"}, {"start": 9.15, "end": 11.59, "text": "completeness of the content. The"}, {"start": 11.59, "end": 13.55, "text": "instructional designer focuses on how"}, {"start": 13.55, "end": 16.07, "text": "that content is organized, presented and"}, {"start": 16.07, "end": 19.07, "text": "assessed. If you identify a factual"}, {"start": 19.07, "end": 20.63, "text": "issue that could affect the learning"}, {"start": 20.63, "end": 22.95, "text": "experience, flag it and collaborate with"}, {"start": 22.95, "end": 24.99, "text": "the instructional designer to resolve it."}], "4": [{"start": 0.11, "end": 1.87, "text": "Notice the difference between these two"}, {"start": 1.87, "end": 4.51, "text": "comments. The first identifies a"}, {"start": 4.51, "end": 6.11, "text": "problem but doesn't provide enough"}, {"start": 6.11, "end": 8.83, "text": "information to resolve it. The second"}, {"start": 8.83, "end": 10.75, "text": "identifies where the issue occurs,"}, {"start": 10.83, "end": 12.91, "text": "explains what needs to change, and"}, {"start": 12.91, "end": 15.87, "text": "references the correct policy. That's the"}, {"start": 15.87, "end": 17.63, "text": "level of detail you should aim for when"}, {"start": 17.63, "end": 18.67, "text": "reviewing content."}], "5": [{"start": 0.11, "end": 2.51, "text": "Acme's current onboarding policy requires"}, {"start": 2.51, "end": 4.43, "text": "new employees to complete mandatory"}, {"start": 4.43, "end": 6.43, "text": "compliance training within 30 days of"}, {"start": 6.43, "end": 9.39, "text": "their start date. Review the draft course"}, {"start": 9.39, "end": 11.55, "text": "and identify any incorrect statement."}], "6": [{"start": 0.11, "end": 2.35, "text": "Now review the draft onboarding content."}, {"start": 3.23, "end": 5.27, "text": "Use the Acme policy from the previous"}, {"start": 5.27, "end": 6.99, "text": "screen to find the statement that needs"}, {"start": 6.99, "end": 7.71, "text": "correction."}], "8": [{"start": 0.11, "end": 1.63, "text": "You've practiced identifying an"}, {"start": 1.63, "end": 3.35, "text": "inaccurate statement and providing a"}, {"start": 3.35, "end": 5.87, "text": "useful review comment. As an"}, {"start": 5.87, "end": 8.75, "text": "SME, focus on accuracy, currency,"}, {"start": 8.83, "end": 10.59, "text": "completeness and relevance."}, {"start": 11.47, "end": 14.27, "text": "Identify the location, specify the change"}, {"start": 14.35, "end": 15.79, "text": "and reference a current source when"}, {"start": 15.79, "end": 16.43, "text": "possible."}]};
+function timestampSeconds(t){let p=t.replace(',','.').split(':');return Number(p[0])*3600+Number(p[1])*60+Number(p[2]);}
+function parseVTT(raw){
+  const blocks=raw.replace(/\r/g,'').split(/\n\s*\n/), result=[];
+  for(const b of blocks){const lines=b.split('\n');const i=lines.findIndex(x=>x.includes('-->'));if(i<0)continue;
+    const [a,z]=lines[i].split('-->').map(s=>s.trim().split(/\s+/)[0]);
+    result.push({start:timestampSeconds(a),end:timestampSeconds(z),text:lines.slice(i+1).join(' ').trim()});}
+  return result;
+}
+function refreshCaptions(){
+  if(!captionsEnabled){captionText.textContent='';return;}
+  const t=audio.currentTime;captionText.textContent=cues.filter(c=>t>=c.start&&t<c.end).map(c=>c.text).join(' ');
+}
+function setAudioScreen(n){
+  const token=++audioToken;
+  audio.pause();audio.removeAttribute('src');audio.load();cues=[];captionText.textContent='';audioSeek.value=0;audioTime.textContent='0:00 / 0:00';
+  const scene=n+1,enabled=narratedScreens.has(scene);
+  audioPanel.classList.toggle('hidden',!enabled);
+  if(!enabled)return;
+  const id=String(scene).padStart(2,'0');
+  
+  audio.src=`media/Acme_SME_Narration_Screen_${id}.m4a`;
+  audio.load();
+  cues=embeddedCaptions[String(scene)]||[];updateAudioUI();
+}
+
+function timeLabel(sec){if(!Number.isFinite(sec))return '0:00';const n=Math.floor(sec);return `${Math.floor(n/60)}:${String(n%60).padStart(2,'0')}`;}
+function updateAudioUI(){
+ const dur=audio.duration||0;
+ audioSeek.max=dur||100;audioSeek.value=audio.currentTime||0;
+ audioSeek.disabled=!dur;
+ audioTime.textContent=`${timeLabel(audio.currentTime)} / ${timeLabel(dur)}`;
+ audioPlay.textContent=audio.paused?'▶':'❚❚';audioPlay.setAttribute('aria-label',audio.paused?'Play narration':'Pause narration');
+ audioMute.textContent=audio.muted?'🔇':'🔊';audioMute.setAttribute('aria-label',audio.muted?'Unmute narration':'Mute narration');
+ refreshCaptions();
+}
+audioPlay.addEventListener('click',()=>{if(audio.paused)audio.play().catch(()=>{});else audio.pause();});
+audioReplay.addEventListener('click',()=>{audio.currentTime=0;audio.play().catch(()=>{});updateAudioUI();});
+audioSeek.addEventListener('input',()=>{if(Number.isFinite(audio.duration))audio.currentTime=Number(audioSeek.value);updateAudioUI();});
+audioMute.addEventListener('click',()=>{audio.muted=!audio.muted;updateAudioUI();});
+captionToggle.addEventListener('click',()=>{
+ captionsEnabled=!captionsEnabled;captionToggle.setAttribute('aria-pressed',String(captionsEnabled));
+ captionToggle.textContent=captionsEnabled?'CC On':'CC Off';updateAudioUI();
+});
+for(const event of ['timeupdate','loadedmetadata','play','pause','ended','seeked','durationchange'])audio.addEventListener(event,updateAudioUI);
+
+function show(n){const changed=n!==current||previousAudioScreen===-1;if(changed){setAudioScreen(n);previousAudioScreen=n;}current=n;screen.innerHTML=render(n);progress.textContent=`Screen ${n+1} of 8`;back.classList.toggle('hidden',n===0||n===7);next.classList.toggle('hidden',(n===0&&!started)||n===4||n===7);next.textContent='Next';next.disabled=(n===2&&decision!=='A')||(n===5&&!posted)||(n===6&&knowledge!=='B');if(n===5)bindSim();if(n===2)bindDecision();if(n===6)bindKnowledge();if(changed&&n!==0&&narratedScreens.has(n+1)){audio.play().catch(()=>{});}window.scrollTo({top:0,behavior:'instant'});}
+function render(n){switch(n){
+case 0:return `${eyebrow(1)}<h1>Your Role as a Subject Matter Expert in Content Review</h1><div class="card"><h2>Your assignment</h2><p>As a subject matter expert (SME), review a draft employee onboarding course for content accuracy before publication.</p></div>${started?"":`<button class="primary" id="start">Start Course</button>`}`;
+case 1:return `${eyebrow(2)}<h1>What is the SME responsible for?</h1><div class="grid"><div class="card"><h2>SME | Content expert</h2><ul class="bullets"><li>Verify accuracy and currency</li><li>Check completeness and relevance</li><li>Clarify terminology and process</li></ul></div><div class="card id-role"><h2>Instructional Designer (ID) | Learning expert</h2><ul class="bullets"><li>Design the learning sequence</li><li>Choose interactions and assessments</li><li>Create visual and accessible materials</li></ul></div></div><p>If design creates a factual misunderstanding, flag the impact and collaborate with the ID.</p>`;
+case 2:return `${eyebrow(3)}<h1>Where should you focus your feedback?</h1><p>You notice two issues: the policy deadline is wrong, and you would prefer a different button color. Which should you prioritize in your SME review?</p><div id="choices">${[['A','The policy deadline is incorrect'],['B','You prefer a different button color'],['C','Both issues are equally your responsibility']].map(([v,t])=>`<button class="choice ${decision===v?'chosen':''}" data-decision="${v}" aria-pressed="${decision===v}"><strong>${v}.</strong> ${t}</button>`).join('')}</div><div id="decisionFeedback" class="status ${decision===null?'hidden':decision==='A'?'good':'warn'}" role="status">${decision===null?'':decision==='A'?'Correct. Accurate policy information is your primary responsibility.':'Focus first on content accuracy. Design preferences belong with the ID unless they cause confusion or an accessibility issue. Try another answer if you like.'}</div>`;
+case 3:return `${eyebrow(4)}<h1>How to Write an Actionable Review Comment</h1><div class="grid"><div class="card"><div class="small-title">Vague feedback</div><p class="example">“The benefits deadline is wrong. Please fix it.”</p></div><div class="card"><div class="small-title">Actionable feedback</div><p class="example better">“On the benefits overview screen, change the enrollment period from 14 days to 21 days to match Acme’s current benefits policy.”</p></div></div><p>A useful comment identifies the location, explains the issue, specifies the correction, and references an approved source when available.</p>`;
+case 4:return `${eyebrow(5)}<h1>Your scenario: check the policy</h1><p>You are reviewing Acme's employee onboarding course before publication. Use the policy reference below as you check the draft.</p><div class="policy"><strong>ACME POLICY REFERENCE</strong><p>Mandatory compliance training must be completed <strong>within 30 days</strong> of an employee’s start date.</p></div><button class="primary" id="reviewDraft">Review Draft →</button>`;
+case 5:return `${eyebrow(6)}<h1>Practice: review and comment</h1><p class="review-prompt">Review the draft. Select the statement that needs correction, then submit an actionable comment.</p><div class="workspace"><section class="panel"><div class="panelhead"><h2>Course preview</h2><span class="muted">Screen 2 of 5</span></div><div class="course"><div class="pill">NEW EMPLOYEE ONBOARDING</div><h3>Complete your required training</h3>${[
+'New employees receive access to the learning portal during onboarding.',
+'Required compliance training must be completed within 60 days of your start date.',
+'Your manager will provide information about role-specific training.',
+'You can review assigned training in the learning portal.'
+].map((t,i)=>`<button class="statement ${selected===i?'selected':''}" data-statement="${i}" aria-pressed="${selected===i}" ${posted?'disabled':''}>${escapeHTML(t)}</button>`).join('')}<div id="selectionFeedback" class="status warn ${wrongChoice?'':'hidden'}" role="status">Not quite. Review the policy from the previous screen and try again.</div></div></section><aside class="panel"><div class="panelhead"><h2>Comments</h2><span class="muted">SME review</span></div><div class="sidebar"><p>Identify the correction needed so the instructional designer can update the draft.</p><label for="feedback">Your review comment</label><textarea id="feedback" placeholder="Describe the specific correction…" ${selected!==1||posted?'disabled':''}>${escapeHTML(posted?'':comment)}</textarea><div id="commentError" class="feedback-error ${commentError?'':'hidden'}" role="status">${escapeHTML(commentError)}</div><div class="actions"><button class="primary" id="post" ${selected!==1||!comment.trim()||posted?'disabled':''}>Post Comment</button></div><div id="status" class="status good ${posted?'':'hidden'}" role="status"><strong>Comment posted.</strong> Your correction has been added to the review thread.</div><div id="posted" class="posted ${posted?'':'hidden'}"><h3>Review thread · Screen 2</h3><div class="comment" id="commentText">${escapeHTML(comment)}</div></div><div style="margin-top:18px"><button class="secondary" id="reset">Reset practice</button></div></div></aside></div>`;
+case 6:return `${eyebrow(7)}<h1>Apply what you learned</h1><p><strong>An onboarding screen contains an outdated procedure. Which comment is most helpful?</strong></p><p>Select the best answer.</p><div id="knowledgeChoices">${[['A','This information needs to be updated.'],['B','On screen 4, replace the approval steps with Procedure v2, including manager approval.'],['C','Please review this section again.'],['D','The procedure does not look right.']].map(([v,t])=>`<button class="choice ${knowledge===v?'chosen':''}" data-knowledge="${v}" aria-pressed="${knowledge===v}"><strong>${v}.</strong> ${t}</button>`).join('')}</div><div id="knowledgeFeedback" class="status ${knowledge===null?'hidden':knowledge==='B'?'good':'warn'}" role="status">${knowledge===null?'':knowledge==='B'?'Correct. You identified the location, required correction, and current source. This makes the feedback actionable.':'Give the designer enough information to find and correct the issue. Include a location, specific change, and source. You may try another answer.'}</div>`;
+case 7:return `${eyebrow(8)}<h1>You’re Ready for Your Next Content Review</h1><h2>Before you submit your SME review…</h2><div class="checklist"><div><span>✓</span>Check accuracy, currency, completeness, and relevance.</div><div><span>✓</span>Identify the exact statement or screen needing correction.</div><div><span>✓</span>Explain the change clearly and cite the current source when available.</div></div><p>Keep the two-page SME Content Review Job Aid handy for your next review.</p><div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:22px"><button class="outline" id="download" title="Open the SME Content Review Job Aid PDF in a new tab">Download SME Job Aid</button><button class="primary" id="finish">Finish Course</button><button class="secondary hidden" id="restart">Restart Course</button></div><div class="status good hidden" id="complete" role="status"><strong>Course complete.</strong> You’ve finished this portfolio sample.</div>`;
+}}
+function escapeHTML(s){return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function bindDecision(){document.querySelectorAll('[data-decision]').forEach(b=>b.addEventListener('click',()=>{decision=b.dataset.decision;show(2)}));}
+function bindKnowledge(){document.querySelectorAll('[data-knowledge]').forEach(b=>b.addEventListener('click',()=>{knowledge=b.dataset.knowledge;show(6)}));}
+function bindSim(){
+ const ta=document.getElementById('feedback'),po=document.getElementById('post');
+ document.querySelectorAll('[data-statement]').forEach(btn=>btn.addEventListener('click',()=>{
+  if(posted)return;
+  const i=Number(btn.dataset.statement);
+  if(i!==1){wrongChoice=true;document.getElementById('selectionFeedback').classList.remove('hidden');return;}
+  selected=1;wrongChoice=false;document.getElementById('selectionFeedback').classList.add('hidden');
+  document.querySelectorAll('[data-statement]').forEach(b=>{const active=b===btn;b.classList.toggle('selected',active);b.setAttribute('aria-pressed',String(active));});
+  ta.disabled=false;po.disabled=!comment.trim();ta.focus();
+ }));
+ ta.addEventListener('input',()=>{comment=ta.value;commentError='';document.getElementById('commentError').classList.add('hidden');po.disabled=selected!==1||!comment.trim()});
+ po.addEventListener('click',()=>{
+  if(selected!==1||!comment.trim()||posted)return;
+  const c=comment.toLowerCase().replace(/[\u2010-\u2015]/g,'-').replace(/\s+/g,' ').trim();
+  // Lightweight, forgiving practice validation—not a comprehensive writing assessment.
+  // Recognize 30days, 30-day, thirty days, etc.; accept direct statements of the correction.
+  const has30=/(?:\b30\s*[- ]?\s*days?\b|\bthirty\s*[- ]?\s*days?\b|\b30\b|\bthirty\b)/.test(c);
+  const meaningful=/(?:compliance|training|deadline|policy|require|complete|day|change|replace|correct|update|should|instead|rather|60)/.test(c);
+  if(!has30||!meaningful||c.length<12){commentError='Please make the correction clear—for example, state that the compliance training deadline is 30 days.';const e=document.getElementById('commentError');e.textContent=commentError;e.classList.remove('hidden');return;}
+  posted=true;document.getElementById('commentText').textContent=comment.trim();document.getElementById('posted').classList.remove('hidden');document.getElementById('status').classList.remove('hidden');ta.value='';ta.disabled=true;po.disabled=true;next.disabled=false;
+ });
+ document.getElementById('reset').addEventListener('click',()=>{selected=-1;wrongChoice=false;posted=false;comment='';commentError='';show(5)});
+}
+function restartCourse(){started=false;decision=null;knowledge=null;selected=-1;posted=false;wrongChoice=false;comment='';commentError='';show(0);}
+back.addEventListener('click',()=>show(current-1));next.addEventListener('click',()=>show(current+1));screen.addEventListener('click',e=>{if(e.target.closest('#start')){if(!started){started=true;show(0);audio.play().catch(()=>{});}else{show(1);}}if(e.target.closest('#reviewDraft'))show(5);if(e.target.closest('#download'))window.open('https://drive.google.com/file/d/1iq6qmxzb9o-K0nQx6zaohOh5RxSxgrSX/view?usp=sharing','_blank','noopener,noreferrer');if(e.target.closest('#finish')){document.getElementById('complete').classList.remove('hidden');e.target.disabled=true;e.target.textContent='Completed';document.getElementById('restart').classList.remove('hidden');}if(e.target.closest('#restart'))restartCourse();});show(0);
+</script></body></html>
+
+<!-- Revised Slide 4: benefits enrollment example avoids disclosing Slide 6 answer. -->
